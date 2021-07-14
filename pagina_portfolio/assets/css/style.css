@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+/* Importa a fonte do Google Fonts */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Resetar margem e espaçamento */
+
+nav{
+    background-color: #0B6DE680;
+    padding: 2rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    padding: 1rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+

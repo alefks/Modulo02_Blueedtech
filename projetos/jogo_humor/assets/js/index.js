@@ -15,6 +15,6 @@ elementoButton.addEventListener('click', () =>{
     } else{
         elementoImg.src = "./assets/img/sunny.jpg"
         elementoButton.value = 'primeiro'
-        elementoSituacao.innerText = 'Ensolarado (bom para tomar um sorvete!)'
+        elementoSituacao.innerText = 'Ensolarado (bom para tomar um sorvete se estiver quente!)'
     }
 }) 

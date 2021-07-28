@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap');
+
+/* Resetar margem e espaçamento */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poiret One', sans-serif;
+    color: #fff;
+}
+
+html, body{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #7b2cbf;
+}
+
+nav{
+    background-color: #5a189a;
+    font-size:x-large;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    font-size: 1.8vw;
+    padding: .2rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding: 1.2rem;
+}
+
+/* HEADER */
+
+header h1{
+    text-align: center;
+    padding: 0.3rem;
+    font-size: 4.5rem;
+}
+
+header h2#subtitle{
+    text-align: center;
+    font-size: 2vw;
+    font-weight: 6;
+    padding-top: 3rem;
+}
+
+/* First section */
+
+section#sentence{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section#sentence h2#stevejobs{
+    font-size: 2.5vw;
+}
+
+section#sentence div#imagem1{
+    width: 80%;
+}
+
+/* Section ABOUT ME */
+
+section#aboutme div#block1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: #5a189a;
+}
+
+section#aboutme div#block1 h2#section1title{
+    font-size: 2.5vw;
+    padding-right: 4rem;
+    padding-left: 4rem;
+}
+
+section#aboutme div#block1 h3#section1text{
+    font-size: 1.4vw;
+}
+
+section#aboutme div#block1 img{
+    width: 13%;
+    border-radius: 45%;
+}
+
+/* SECTION PROJECTS */
+
+section#projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+section#projects div img{
+    display: block;
+    margin: auto;
+}
+
+section#projects div{
+    padding-right: 10rem;
+}
+
+section#projects div h2{
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.9rem;
+}
+
+section#projects div p{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+section#projects div img#detetive{
+    width: 40%;
+}
+
+section#projects div img#jokenpo{
+    width: 110%;
+}
+
+section#projects div img#urna{
+    width: 40%;
+}
+
+section#projects div img#programador{
+    width: 110%;
+}
+
+section#projects div button{
+    border: 1px solid;
+    color: black;
+    padding: 0.8rem;
+    font-size: .8vw;
+    border-radius: .8rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: .6s ease-out;
+}
+
+section#projects div button:hover{
+    background-color:rgb(38, 52, 253);
+    color: whitesmoke;
+    transform: scale(1.2);
+}
+
+/* SECTION SKILLS */
+
+section#skills{
+    padding: 3rem 10rem 3rem 10rem;
+    background-color: #5a189a;
+}
+
+section#skills h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+section#skills p{
+    padding: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+section#skills div{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 1rem;
+}
+
+section#skills div span#python{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 75%;
+}
+
+section#skills div span#html{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 75%;
+}
+
+section#skills div span#css{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 30%;
+}
+
+section#skills div span#javascript{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: .3rem;
+    border-radius: 1rem;
+    width: 30%;
+}
+
+/* SECTION CONTACT */
+
+section#contact{
+    padding: 3rem 10rem 3rem 10rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#contact div#redes{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+
+section#contact div#redes h3{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+section#contact div#redes div#icons{
+    display: flex;
+    justify-content: center;
+}
+
+section#contact div#redes a{
+    text-decoration: none;
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+/* SECTION CONTACT DIV FORM */
+
+section#contact div#form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+section#contact div#form h3{
+    width: 100%;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+section#contact div#form form{
+    width: 50%;
+}
+
+section#contact div#form form input, textarea{
+    width: 100%;
+    padding: .5rem;
+    font-size: 1.2rem;
+    border: 1px solid rgb(0, 0, 0);
+    color: black;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+section#contact div#form form label{
+    font-size: 1.2rem;
+}
+
+section#contact div#form form button{
+    border: 1px solid;
+    color: black;
+    padding: 0.8rem;
+    font-size: .8vw;
+    border-radius: .8rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: .6s ease-out;
+    width: 40%;
+}
+
+section#contact div#form form button:hover{
+    background-color: black;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+/* SEND PAGE */
+
+section#success{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgb(235, 255, 235);
+  }
+  
+  section#success div#card{
+    background-color: rgb(166, 218, 166);
+    text-align: center;
+    padding: 4rem;
+    border-radius: 2rem;
+    color: rgb(0, 88, 0);
+    width: 40%;
+  }
+  
+  section#success div#card h1{
+    margin: 2rem 0rem;
+  }
+  
+  section#success div#card i{
+    font-size: 5rem;
+  }
+  
+  section#success div#card h3{
+    margin-bottom: 2rem;
+  }
+  
+  section#success div#card p{
+    margin-bottom: 3rem;
+    width: 100%;
+    word-break: break-word;
+  }
+  
+  section#success div#card a{
+    text-decoration: none;
+    padding: 1rem;
+    border: 1px solid rgb(0, 88, 0);
+    color:rgb(0, 88, 0);
+    border-radius: .4rem;
+    transition: all .4s ease-out;
+  }
+  
+  section#success div#card a:hover{
+    background-color: rgb(0, 88, 0);
+    color: #fff;
+  }
+
+
+  /* ---------------- */
+section#contact div#carregamento{
+  display: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+section#contact div#carregamento p{
+  color: #0066ff;
+  font-weight: 700;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+  padding: 2rem;
+}
+
+section#contact div#carregamento div#loader{
+  border: 13px solid #fff;
+  border-radius: 50%;
+  border-top: 13px solid #0066ff;
+  border-bottom: 13px solid #0066ff;
+  width: 80px;
+  height: 80px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  } 
+  100%{
+    transform: rotate(360deg);
+}
+}
